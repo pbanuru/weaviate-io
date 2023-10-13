@@ -27,7 +27,7 @@ export default function ContactForm() {
       <div className="container">
         <div className={styles.contactContainer}>
           <div className={styles.contactSection}>
-            <h2 className={styles.title}>Book a meeting with the team</h2>
+            <h2 className={styles.title}>Schedule a meeting</h2>
             <div id="hubspotForm"></div>
           </div>
         </div>
