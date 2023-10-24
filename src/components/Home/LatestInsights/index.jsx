@@ -7,6 +7,7 @@ import Image from 'react';
 import Link from '@docusaurus/Link';
 import posts from '/data/blogposts.json';
 import BlogItem from './blogItem';
+import { Fade } from 'react-reveal';
 
 export default function HomepageLatestInsights() {
   const option2Data = posts.blog;
@@ -18,11 +19,15 @@ export default function HomepageLatestInsights() {
           Learn and explore the latest insights and trends in the AI world.
         </p>
       </div>
+
       <div className={styles.latestModule}>
-        {option2Data.map((post) => {
-          return <BlogItem key={post.tagline} details={post} />;
-        })}
+        <Fade bottom>
+          {option2Data.map((post) => {
+            return <BlogItem key={post.tagline} details={post} />;
+          })}
+        </Fade>
       </div>
+
       <div className={styles.buttons}>
         <Link className={styles.buttonGradient} to="/blog">
           Go to Blog

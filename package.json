@@ -41,6 +41,7 @@
     "react-player": "^2.11.0",
     "react-radio-group": "^3.0.3",
     "react-rangeslider": "^2.2.0",
+    "react-reveal": "^1.2.2",
     "react-slick": "^0.29.0",
     "react-syntax-highlighter": "^15.5.0",
     "react-twitter-embed": "^4.0.4",
