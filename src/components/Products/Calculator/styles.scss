@@ -411,13 +411,13 @@ select option {
 }
 
 .customTooltip {
-  background-color: #0c072f;
+  background-color: #0c072fd4;
   color: #fff;
   left: 39%;
   position: absolute;
   padding: 5px;
   border-radius: 5px;
-  margin-top: 10px;
+
   z-index: 10;
   width: calc(49% - 70px);
   box-shadow: 0px 2px 3px 2px rgb(22 27 45 / 19%);
@@ -425,5 +425,6 @@ select option {
   @media screen and (max-width: 668px) {
     position: inherit;
     width: calc(100% - 0px);
+    margin-top: 10px;
   }
 }
