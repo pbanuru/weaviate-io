@@ -36,7 +36,7 @@ dave:
   name: Dave Cuthbert
   title: Technical Writer
   url: https://github.com/daveatweaviate
-  image_url: /img/people/icon/dirk.jpg
+  image_url: /img/people/icon/dave.jpg
 dirk:
   name: Dirk Kulawiak
   title: Core Engineer
@@ -57,6 +57,11 @@ etienne:
   title: CTO
   url: https://github.com/etiennedi
   image_url: /img/people/icon/etienne.jpg
+ieva:
+  name: Ieva Urbaite
+  title: Marketing
+  url: https://www.linkedin.com/in/ievaurbaite/
+  image_url: /img/people/icon/ieva.jpg
 jessie:
   name: Jessie de Groot
   title: Head of People and Culture
