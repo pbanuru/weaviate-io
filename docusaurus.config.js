@@ -285,6 +285,20 @@ const config = {
                         ],
                     },
                     {
+                        // type: 'dropdown',
+                        label: 'Resources',
+                        position: 'right',
+                        items: [
+                          
+                            {
+                                label: 'Showcase',
+                                    to: '/developers/weaviate/more-resources/example-use-cases',
+                                 },
+                           
+                         
+                         ],
+                    },
+                    {
                         label: 'Blog',
                         to: '/blog',
                         position: 'right',
