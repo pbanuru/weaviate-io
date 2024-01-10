@@ -224,6 +224,12 @@ const config = {
                                 type: 'doc',
                             },
                             {
+                                label: 'Examples',
+                                docId: 'weaviate/more-resources/example-use-cases',
+                                sidebarid: 'docsSidebar',
+                                type: 'doc',
+                                 },
+                            {
                                 label: 'Academy',
                                 docId: 'academy/index',
                                 sidebarid: 'academySidebar',
@@ -291,11 +297,11 @@ const config = {
                         items: [
                           
                             {
-                                label: 'Showcase',
-                                    to: '/developers/weaviate/more-resources/example-use-cases',
+                                label: 'Examples',
+                                    to: 'developers/weaviate/more-resources/example-use-cases',
                                  },
                            
-                         
+                          
                          ],
                     },
                     {
