@@ -91,6 +91,18 @@ const config = {
                             tagName: 'script',
                             innerHTML: `(function (n) { if (typeof n !== "undefined" && n.webdriver) return; var script = document.createElement("script"); script.type = "text/javascript"; script.async = 1; script.src = "https://www.emailpig.com/_functions/myF/823adf31-4fd9-4a44-8491-9de559b8c428?q=" + encodeURIComponent(window.location.href) + "&r=" + document.referrer; document.head.appendChild(script); })(navigator);`,
                         },
+                         // Add Cookiebot
+                        {
+                            tagName: 'script',
+                            attributes: {
+                              id: 'Cookiebot',
+                              src: 'https://consent.cookiebot.com/uc.js',
+                              'data-cbid': '3950c63c-01b4-4b08-a1b6-8b71081341c7',
+                              'data-blockingmode': 'auto',
+                              type: 'text/javascript'
+                            },
+                        }
+                        
                     ],
                 };
             },
