@@ -97,7 +97,7 @@ const config = {
                             attributes: {
                               id: 'Cookiebot',
                               src: 'https://consent.cookiebot.com/uc.js',
-                              'data-cbid': '3950c63c-01b4-4b08-a1b6-8b71081341c7',
+                              'data-cbid': '4397b0f9-0b32-41f5-b24a-9370be245e85',
                               'data-blockingmode': 'auto',
                               type: 'text/javascript'
                             },
