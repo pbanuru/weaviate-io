@@ -22,6 +22,16 @@ import ThemeSwitch from '/src/components/ThemeSwitch';
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
+  useEffect(() => {
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="3950c63c-01b4-4b08-a1b6-8b71081341c7"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>;
+  }, []);
+
   return (
     <div className="custom-page noBG">
       <Layout title="Welcome" description="Welcome to Weaviate">
