@@ -728,3 +728,17 @@ Dropdown style removed.
     width: 100% !important;
   }
 }
+
+/* CSS Fix for duplicate docs links in nav */
+.dropdown__link.dropdown__link--active[href='/developers/weaviate/more-resources/example-use-cases'] {
+  background-color: transparent;
+  color: #1c1468;
+}
+
+.dropdown__link.dropdown__link--active[href='/developers/weaviate/more-resources/example-use-cases']:active {
+  background-color: #61bd7352;
+}
+
+.dropdown__link.dropdown__link--active[href='/developers/weaviate/more-resources/example-use-cases']:hover {
+  background-color: #61bd7352;
+}

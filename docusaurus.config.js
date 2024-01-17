@@ -199,6 +199,10 @@ const config = {
                                 label: 'Vector Database',
                                     to: '/platform',
                                  },
+                                 {
+                                    label: 'Pricing',
+                                    href: '/pricing',
+                               },
                            
                            {
                                 label: 'Security',
@@ -236,8 +240,8 @@ const config = {
                                 type: 'doc',
                             },
                             {
-                                label: 'Events & Webinars',
-                                to: '/community/events',
+                                label: 'Blog',
+                                to: '/blog',
                             },
                             {
                                 label: 'Contributor Guide',
@@ -253,11 +257,35 @@ const config = {
                                 label: 'Slack',
                                 href: 'https://weaviate.io/slack',
                             },
+                           
+                        ],
+                        
+                    },
+                    {
+                        // type: 'dropdown',
+                        label: 'Connect',
+                        position: 'right',
+                        items: [
+                          
+                            {
+                                label: 'Events & Webinars',
+                                to: '/community/events',
+                            },
                             {
                                 label: 'Forum',
-                                href: 'https://forum.weaviate.io',
+                                to: 'https://forum.weaviate.io',
                             },
-                        ],
+                            {
+                                label: 'Podcast',
+                                to: '/podcast',
+                            },
+                            {
+                                label: 'Newsletter',
+                                to: 'https://newsletter.weaviate.io/',
+                            },
+                           
+                          
+                         ],
                     },
                     {
                         type: 'dropdown',
@@ -273,12 +301,12 @@ const config = {
                                 to: '/company/playbook',
                             },
                             {
-                                label: 'Careers',
-                                to: '/company/careers',
+                                label: 'Partners',
+                                to: '#',
                             },
                             {
-                                label: 'Newsletter',
-                                to: 'https://newsletter.weaviate.io/',
+                                label: 'Careers',
+                                to: '/company/careers',
                             },
                             {
                                 label: 'Investors',
@@ -290,25 +318,7 @@ const config = {
                             },
                         ],
                     },
-                    {
-                        // type: 'dropdown',
-                        label: 'Resources',
-                        position: 'right',
-                        items: [
-                          
-                            {
-                                label: 'Examples',
-                                    to: 'developers/weaviate/more-resources/example-use-cases',
-                                 },
-                           
-                          
-                         ],
-                    },
-                    {
-                        label: 'Blog',
-                        to: '/blog',
-                        position: 'right',
-                    },
+                   
                     {
                         label: 'Pricing',
                         to: '/pricing',
@@ -383,8 +393,16 @@ const config = {
                 style: 'dark',
                 links: [
                     {
-                        title: 'Weaviate Cloud Services',
+                        title: 'Product',
                         items: [
+                            {
+                                label: 'Vector Database',
+                                to: '/platform',
+                            },
+                            {
+                                label: 'Trust & Security',
+                                to: '/security',
+                            },
                             {
                                 label: 'Pricing',
                                 to: '/pricing',
@@ -404,7 +422,85 @@ const config = {
                         ],
                     },
                     {
-                        title: 'Community',
+                        title: 'Developers',
+                        items: [
+                            {
+                                label: 'Docs',
+                                to: '/developers/weaviate',
+                            },
+                            {
+                                label: 'Quickstart',
+                                to: '/developers/weaviate/quickstart',
+                            },
+                            {
+                                label: 'Examples',
+                                to: '/developers/weaviate/more-resources/example-use-cases',
+                            },
+                            {
+                                label: 'Blog',
+                                to: '/blog',
+                            },
+                            {
+                                label: 'Academy',
+                                to: '/developers/academy',
+                            },
+                            
+                        ],
+                    },
+                    {
+                        title: 'Connect',
+                        items: [
+
+
+                            {
+                                label: 'Community',
+                                to: '/community',
+                            },
+                            {
+                                label: 'Events & Webinars',
+                                to: '/community/events',
+                            },
+                            {
+                                label: 'Forum',
+                                to: 'https://forum.weaviate.io',
+                            },
+                            {
+                                label: 'Podcast',
+                                to: '/podcast',
+                            },
+                           
+                            
+                        ],
+                    },
+                    {
+                        title: 'Company',
+                        items: [
+                            {
+                                label: 'About us',
+                                to: '/about-us',
+                            },
+                            {
+                                label: 'Partners',
+                                to: '/partners/aws',
+                            },
+                            {
+                                label: 'Careers',
+                                to: '/company/careers',
+                            },
+                            {
+                                label: 'Press',
+                                to: '/press',
+                            },
+                            {
+                                label: 'Terms & Policies',
+                                to: '/service',
+                            },
+
+
+                        ],
+                    },
+                    {
+                        title: 'Contact',
                         items: [
 
                             {
@@ -424,53 +520,19 @@ const config = {
                                 to: 'https://github.com/weaviate/weaviate',
                             },
                             {
-                                label: 'Forum',
-                                to: 'https://forum.weaviate.io',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Meetups',
-                        items: [
-                            {
-                                label: 'Amsterdam',
-                                to: 'https://www.meetup.com/weaviate-amsterdam',
-                            },
-                            {
-                                label: 'Boston',
-                                to: 'https://www.meetup.com/weaviate-boston',
-                            },
-                            {
-                                label: 'New York',
-                                to: 'https://www.meetup.com/weaviate-NYC',
-                            },
-                            {
-                                label: 'San Francisco',
-                                to: 'https://www.meetup.com/weaviate-san-francisco',
-                            },
-                            {
-                                label: 'Toronto',
-                                to: 'https://www.meetup.com/weaviate-toronto',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
-                            {
-                                label: 'Podcast',
-                                to: '/podcast',
-                            },
-                            {
-                                label: 'Playbook',
-                                to: 'company/playbook',
-                            },
+                                label: 'LinkedIn',
+                                to: 'https://www.linkedin.com/company/weaviate-io',
 
 
+                            },
+                            {
+                                label: 'Youtube',
+                                to: 'https://www.youtube.com/c/SeMI-and-Weaviate',
+                            },
+                            {
+                                label: 'Email',
+                                to: 'mailto:hello@weaviate.io',
+                            },
                         ],
                     },
                 ],
